@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "docs-data-extract"
+version = "0.1.0"
+description = ""
+authors = ["mazzasaverio <saverio3107@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+jsonschema = "^4.21.1"
+langchain-openai = "^0.1.1"
+unstructured = {extras = ["pdf"], version = "^0.13.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

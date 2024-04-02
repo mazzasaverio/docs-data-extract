@@ -1,0 +1,20 @@
+# backend/app/config/extraction_config.yml
+
+json_schema:
+  title: "Extraction Schema"
+  type: "object"
+  properties:
+
+instructions: "Supplemental system instructions."
+
+examples:
+  - text: "Example text 1"
+    output:
+      - field1: "value1"
+        field2: "value2"
+  - text: "Example text 2"
+    output:
+      - field1: "value3"
+        field2: "value4"
+
+model_name: "gpt-3.5-turbo"
