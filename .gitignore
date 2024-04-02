@@ -2,7 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.json
+*.pdf 
+*.png
+*.jpg
+*.env
 # C extensions
 *.so
 
